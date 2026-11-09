@@ -1,22 +1,27 @@
 /* Challenge 8: Change the type of font to Arial for all elements */
 body{
+    background-color: darkorange;
     font-family: Arial;
 }
 /* Challenge 9: Change the background color for all elements with a class of banner.  Choose a color
                 using rgb( )
 */
 #banner{
-    background-color: rgb(168, 197, 235);
+    background-color: rgb(216, 106, 33);
 }
 /* Challenge 10: Change the background color for all elements with a class of subbanner.  Choose a color
                 using a hexdecimal value. 
 */
 .subbanner{
+    background-color: black;
     color:#f7f75f ;
 }
 /* Challenge 11: Change the radius of the border to 6px and height to 200px for all images inside of all 
                  elements with a class of gallery 
 */
+.gallery{
+    background-color: darkorange;
+}
 .gallery img{
     border-radius: 6px;
     height: 200px;
